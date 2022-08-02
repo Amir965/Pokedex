@@ -8,7 +8,7 @@ import "./pokemon.css"
 
 const Pokemon = ({ Modal, show, handleClose, pokemonName }) => {
   // const pokemonName = props.match.params.pokemon;
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const pokemonState = useSelector((state) => state.pokemon);
   console.log("pokemonState data", pokemonState);
 
